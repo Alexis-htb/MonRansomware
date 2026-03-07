@@ -9,14 +9,14 @@
 > Ce projet a été développé **strictement à des fins éducatives et de recherche**. Il vise à démontrer le fonctionnement bas niveau des algorithmes de chiffrement (XOR) et l'automatisation de protocoles réseau sécurisé.
 >
 > * **Sécurité par Conception (Safety by Design) :** La clé de déchiffrement est explicitement affichée à l'utilisateur en permanence (Console & Interface Graphique).
-> * **Aucune Malveillance :** Ce programme ne contient aucun mécanisme de persistance, d'évasion ou de propagation réseau (Worm).
-> * **Environnement Contrôlé :** Conçu pour être exécuté exclusivement dans une Machine Virtuelle (VM) isolée.
+> * **Aucune Malveillance :** Ce programme ne contient aucun mécanisme d'évasion ou de propagation réseau (Worm), il contient néanmoins un mécanisme de persistance, dans le but d'explorer cet aspect de la killchain.
+> * **Environnement Contrôlé :** Conçu pour être exécuté exclusivement dans une Machine Virtuelle (VM) Windows isolée.
 
 ---
 
 ## 📋 Présentation du Projet
 
-**PyXOR-SSH-PoC** est une simulation de ransomware développée sur mesure ("from scratch") pour étudier l'implémentation des différentes phases de la killchain (phases 5, 6 et 7), le développement de compétences en algorithmie et en compréhension du langage python ainsi que de se donner une meilleure interprétation du panorama des risques cyber, grâce à cet exercice "d'immersion"
+**PyXOR-SSH-PoC** est une simulation de ransomware développée à la main ("from scratch") pour étudier l'implémentation des différentes phases de la killchain (phases 5, 6 et 7), le développement de compétences en algorithmie et en compréhension du langage python ainsi que de se donner une meilleure interprétation du panorama des risques cyber, grâce à cet exercice "d'immersion".
 
 Contrairement aux implémentations standards qui reposent sur des librairies cryptographiques pré-faites (comme OpenSSL ou PyCrypto) ou des protocoles HTTP, ce projet se concentre sur :
 
